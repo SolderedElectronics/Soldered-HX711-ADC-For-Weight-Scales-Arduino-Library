@@ -47,7 +47,9 @@ uint32_t HX711::getData()
     }
     else
     {
-        sendData(_gain, 1);
+        uint8_t g[1];
+        g[0] = _gain;
+        sendData(g, 1);
 
         uint8_t buf[4];
 
