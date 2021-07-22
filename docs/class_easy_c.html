@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>16x2 easyC LCD Library: EasyC Class Reference</title>
+<title>HX711 Library: EasyC Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">16x2 easyC LCD Library
+   <div id="projectname">HX711 Library
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the 16x2 easyC LCD Module</div>
+   <div id="projectbrief">This is a library for the HX711 Module</div>
   </td>
  </tr>
  </tbody>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_easy_c.html',''); initResizable(
 
 <p><code>#include &lt;<a class="el" href="easy_c_8h_source.html">easyC.h</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="class_sensor.html">Sensor</a>.</p>
+<p>Inherited by <a class="el" href="class_h_x711.html">HX711</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,12 +119,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a10aa7df19e8c7bf12cd720b662f317a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">sendAddress</a> (char regAddr)</td></tr>
 <tr class="memdesc:a10aa7df19e8c7bf12cd720b662f317a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send a single byte to sensor.  <a href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">More...</a><br /></td></tr>
 <tr class="separator:a10aa7df19e8c7bf12cd720b662f317a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a3d39be50b348768bc4b5dea3dae01a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">readData</a> (char a[], int n)</td></tr>
-<tr class="memdesc:a9a3d39be50b348768bc4b5dea3dae01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to read n bytes over i2c.  <a href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">More...</a><br /></td></tr>
-<tr class="separator:a9a3d39be50b348768bc4b5dea3dae01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe8aa014ae53cad3b0f3c42f59277195"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">sendData</a> (const uint8_t *a, int n)</td></tr>
-<tr class="memdesc:afe8aa014ae53cad3b0f3c42f59277195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to write n bytes over i2c.  <a href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">More...</a><br /></td></tr>
-<tr class="separator:afe8aa014ae53cad3b0f3c42f59277195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e9a7bd761d35db214f5a71a04c5a28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#aa0e9a7bd761d35db214f5a71a04c5a28">readData</a> (uint8_t a[], int n)</td></tr>
+<tr class="memdesc:aa0e9a7bd761d35db214f5a71a04c5a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to read n bytes over i2c.  <a href="class_easy_c.html#aa0e9a7bd761d35db214f5a71a04c5a28">More...</a><br /></td></tr>
+<tr class="separator:aa0e9a7bd761d35db214f5a71a04c5a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ec9522df68daf81c709aeb20c14801"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a94ec9522df68daf81c709aeb20c14801">sendData</a> (uint8_t a[], int n)</td></tr>
+<tr class="memdesc:a94ec9522df68daf81c709aeb20c14801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to write n bytes over i2c.  <a href="class_easy_c.html#a94ec9522df68daf81c709aeb20c14801">More...</a><br /></td></tr>
+<tr class="separator:a94ec9522df68daf81c709aeb20c14801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45bd6c915c1fa0998e273f69ee2d2376"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">readRegister</a> (char regAddr, char a[], size_t n)</td></tr>
 <tr class="memdesc:a45bd6c915c1fa0998e273f69ee2d2376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send over i2c and then read n bytes.  <a href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">More...</a><br /></td></tr>
 <tr class="separator:a45bd6c915c1fa0998e273f69ee2d2376"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,12 +231,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">Sensor</a>.</p>
+<p>Implemented in <a class="el" href="class_h_x711.html#aac663be6fc66653a5b75a279096b4042">HX711</a>.</p>
 
 </div>
 </div>
-<a id="a9a3d39be50b348768bc4b5dea3dae01a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3d39be50b348768bc4b5dea3dae01a">&#9670;&nbsp;</a></span>readData()</h2>
+<a id="aa0e9a7bd761d35db214f5a71a04c5a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e9a7bd761d35db214f5a71a04c5a28">&#9670;&nbsp;</a></span>readData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +247,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">int EasyC::readData </td>
           <td>(</td>
-          <td class="paramtype">char&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>a</em>[], </td>
         </tr>
         <tr>
@@ -369,8 +369,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afe8aa014ae53cad3b0f3c42f59277195"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe8aa014ae53cad3b0f3c42f59277195">&#9670;&nbsp;</a></span>sendData()</h2>
+<a id="a94ec9522df68daf81c709aeb20c14801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ec9522df68daf81c709aeb20c14801">&#9670;&nbsp;</a></span>sendData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,8 +381,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">int EasyC::sendData </td>
           <td>(</td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>a</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -538,7 +538,7 @@ Protected Attributes</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_easy_c.html">EasyC</a></li>
         <li class="footer">
-            Generated on Thu Jul 22 2021 12:18:05 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Jul 22 2021 12:46:40 for HX711 Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

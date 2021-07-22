@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>16x2 easyC LCD Library: Class Members</title>
+<title>HX711 Library: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">16x2 easyC LCD Library
+   <div id="projectname">HX711 Library
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the 16x2 easyC LCD Module</div>
+   <div id="projectbrief">This is a library for the HX711 Module</div>
   </td>
  </tr>
  </tbody>
@@ -87,6 +87,21 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 <div class="contents">
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div><ul>
+<li>_dout
+: <a class="el" href="class_h_x711.html#aefb636db66d2af54dc073ff9c85c5bd2">HX711</a>
+</li>
+<li>_gain
+: <a class="el" href="class_h_x711.html#add2d3ec265e6faf6370e1f581dd1a8e5">HX711</a>
+</li>
+<li>_pd_sck
+: <a class="el" href="class_h_x711.html#a088424ddc7b5feba999ebd3208f47fb4">HX711</a>
+</li>
+<li>_scaleConstant
+: <a class="el" href="class_h_x711.html#a65c366ac56f230f2418453d28a468d26">HX711</a>
+</li>
+<li>_zerroConstant
+: <a class="el" href="class_h_x711.html#aff855a06453eab5bdfcc1cac007e7489">HX711</a>
+</li>
 <li>address
 : <a class="el" href="class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda">EasyC</a>
 </li>
@@ -105,18 +120,27 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>err
 : <a class="el" href="class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853">EasyC</a>
 </li>
+<li>getData()
+: <a class="el" href="class_h_x711.html#a1fbc0be179d3732e8968b8a5152cf41d">HX711</a>
+</li>
+<li>getWeight()
+: <a class="el" href="class_h_x711.html#adc4f725198b383eec905b4b7aa21bf8c">HX711</a>
+</li>
+<li>HX711()
+: <a class="el" href="class_h_x711.html#ab5696b03a20502300ddff2365814b8e5">HX711</a>
+</li>
 <li>initializeNative()
 : <a class="el" href="class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998">EasyC</a>
-, <a class="el" href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">Sensor</a>
+, <a class="el" href="class_h_x711.html#aac663be6fc66653a5b75a279096b4042">HX711</a>
 </li>
 <li>native
 : <a class="el" href="class_easy_c.html#abb766b60f26778dbc64e8792fd754729">EasyC</a>
 </li>
-<li>pin
-: <a class="el" href="class_sensor.html#a0efecf34431610766469857f25e113da">Sensor</a>
-</li>
 <li>readData()
-: <a class="el" href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">EasyC</a>
+: <a class="el" href="class_easy_c.html#aa0e9a7bd761d35db214f5a71a04c5a28">EasyC</a>
+</li>
+<li>readDataNative()
+: <a class="el" href="class_h_x711.html#a8e6f4986954fe5911f27260087c6cc0f">HX711</a>
 </li>
 <li>readRegister()
 : <a class="el" href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">EasyC</a>
@@ -125,10 +149,16 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 : <a class="el" href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">EasyC</a>
 </li>
 <li>sendData()
-: <a class="el" href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">EasyC</a>
+: <a class="el" href="class_easy_c.html#a94ec9522df68daf81c709aeb20c14801">EasyC</a>
 </li>
-<li>Sensor()
-: <a class="el" href="class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62">Sensor</a>
+<li>setGain()
+: <a class="el" href="class_h_x711.html#afebc127e71116b551aecb05dcea02798">HX711</a>
+</li>
+<li>setScale()
+: <a class="el" href="class_h_x711.html#a8ce1fdccb8824c504f8c720a4bf522bc">HX711</a>
+</li>
+<li>setToZerro()
+: <a class="el" href="class_h_x711.html#a26d162f4692619e70b3e51e51cb7f2b4">HX711</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -138,7 +168,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
     <!-- id is needed for treeview function! -->
     <ul>
         <li class="footer">
-            Generated on Thu Jul 22 2021 12:18:05 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Jul 22 2021 12:46:40 for HX711 Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

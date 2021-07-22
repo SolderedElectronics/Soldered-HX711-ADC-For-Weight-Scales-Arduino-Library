@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initializenative_10',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['getdata_13',['getData',['../class_h_x711.html#a1fbc0be179d3732e8968b8a5152cf41d',1,'HX711']]],
+  ['getweight_14',['getWeight',['../class_h_x711.html#adc4f725198b383eec905b4b7aa21bf8c',1,'HX711']]]
 ];

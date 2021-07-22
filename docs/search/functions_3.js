@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readdata_30',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_31',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['hx711_41',['HX711',['../class_h_x711.html#ab5696b03a20502300ddff2365814b8e5',1,'HX711::HX711(int dout, int pd_sck)'],['../class_h_x711.html#a3021b412fd3584f9dabdb2d3db6e4dad',1,'HX711::HX711()']]]
 ];
