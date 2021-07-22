@@ -5,7 +5,7 @@ var class_easy_c =
     [ "begin", "class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91", null ],
     [ "initializeNative", "class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998", null ],
     [ "readData", "class_easy_c.html#aa0e9a7bd761d35db214f5a71a04c5a28", null ],
-    [ "readRegister", "class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376", null ],
+    [ "readRegister", "class_easy_c.html#ae039a4e7450e96e5510dc39448f19ded", null ],
     [ "sendAddress", "class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3", null ],
     [ "sendData", "class_easy_c.html#a94ec9522df68daf81c709aeb20c14801", null ],
     [ "address", "class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda", null ],
