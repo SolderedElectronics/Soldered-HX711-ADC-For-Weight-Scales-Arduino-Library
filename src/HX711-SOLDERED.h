@@ -39,7 +39,7 @@ class HX711 : public EasyC
   private:
     int _dout;
     int _pd_sck;
-    int _gain = GAIN_128;
+    uint8_t _gain = GAIN_128;
     uint32_t _zerroConstant = 0;
     float _scaleConstant = 1;
 };
