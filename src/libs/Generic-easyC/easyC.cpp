@@ -56,7 +56,7 @@ void EasyC::begin(uint8_t _address)
  *
  * @return int              0 if read successfuly, error code from endTransmission if not
  */
-int EasyC::readRegister(char regAddr, char a[], size_t n)
+int EasyC::readRegister(char regAddr, uint8_t a[], size_t n)
 {
     if (sendAddress(regAddr))
         return err;

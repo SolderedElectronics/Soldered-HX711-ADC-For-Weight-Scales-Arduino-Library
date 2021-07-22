@@ -40,7 +40,7 @@ class EasyC
     int sendAddress(char regAddr);
     int readData(uint8_t a[], int n);
     int sendData(uint8_t a[], int n);
-    int readRegister(char regAddr, char a[], size_t n);
+    int readRegister(char regAddr, uint8_t a[], size_t n);
 };
 
 #endif
