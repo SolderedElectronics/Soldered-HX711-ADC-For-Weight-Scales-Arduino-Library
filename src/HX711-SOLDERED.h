@@ -8,8 +8,8 @@
  *
  * @authors     @ soldered.com @Robert Peric
  ***************************************************/
-#ifndef _HX711_H
-#define _HX711_H
+#ifndef __HX711_SOLDERED__
+#define __HX711_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
