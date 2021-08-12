@@ -64,7 +64,7 @@ int EasyC::readRegister(char regAddr, char a[], size_t n)
     if (sendAddress(regAddr))
         return err;
 
-    if (readData((uint8_t *)a, n))
+    if (readData((char *)a, n))
         return err;
 
     return 0;
