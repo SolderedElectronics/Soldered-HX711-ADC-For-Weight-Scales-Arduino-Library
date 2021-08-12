@@ -12,7 +12,6 @@
 #define __HX711_SOLDERED__
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.h"
 
 
 // Gain 32 is for B+-, while others are for A+-
