@@ -53,7 +53,7 @@ uint32_t HX711::getData()
 
         uint8_t buf[4];
 
-        readData(buf, 4);
+        readData((char *)buf, 4);
         data |= ((uint32_t)buf[0] << 24);
         data |= ((uint32_t)buf[1] << 16);
         data |= ((uint32_t)buf[2] << 8);
