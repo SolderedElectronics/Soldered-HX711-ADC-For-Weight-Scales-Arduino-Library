@@ -96,7 +96,7 @@ int EasyC::sendAddress(char regAddr)
 int EasyC::readData(char a[], int n)
 {
     Wire.requestFrom(address, n);
-    Wire.readBytes(a, n);
+    Wire.readBytes((uint8_t *)a, n);
 
     return 0;
 }
