@@ -64,7 +64,7 @@ int EasyC::readRegister(char regAddr, char a[], size_t n)
     if (sendAddress(regAddr))
         return err;
 
-    if (readData(a, n))
+    if (readData((char *)a, n))
         return err;
 
     return 0;
@@ -96,7 +96,7 @@ int EasyC::sendAddress(char regAddr)
 int EasyC::readData(char a[], int n)
 {
     Wire.requestFrom(address, n);
-    Wire.readBytes((uint8_t *)a, n);
+    Wire.readBytes(a, n);
 
     return 0;
 }
