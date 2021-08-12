@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['setgain_26',['setGain',['../class_h_x711.html#afebc127e71116b551aecb05dcea02798',1,'HX711']]],
-  ['setscale_27',['setScale',['../class_h_x711.html#a8ce1fdccb8824c504f8c720a4bf522bc',1,'HX711']]],
-  ['settozerro_28',['setToZerro',['../class_h_x711.html#a26d162f4692619e70b3e51e51cb7f2b4',1,'HX711']]]
+  ['initializenative_44',['initializeNative',['../class_h_x711.html#aac663be6fc66653a5b75a279096b4042',1,'HX711::initializeNative()'],['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a2cb289c84d3b51f6be9c84bea39e0531',1,'HX711_SOLDERED_LIBS::EasyC::initializeNative()']]]
 ];

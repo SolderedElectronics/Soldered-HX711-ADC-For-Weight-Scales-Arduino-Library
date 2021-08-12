@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['getdata_5',['getData',['../class_h_x711.html#a1fbc0be179d3732e8968b8a5152cf41d',1,'HX711']]],
-  ['getweight_6',['getWeight',['../class_h_x711.html#adc4f725198b383eec905b4b7aa21bf8c',1,'HX711']]]
+  ['address_5',['address',['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#abf7df6b8b8863cc3bedb701b9e1bc038',1,'HX711_SOLDERED_LIBS::EasyC']]]
 ];

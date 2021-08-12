@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['hx711_7',['HX711',['../class_h_x711.html',1,'HX711'],['../class_h_x711.html#ab5696b03a20502300ddff2365814b8e5',1,'HX711::HX711(int dout, int pd_sck)'],['../class_h_x711.html#a3021b412fd3584f9dabdb2d3db6e4dad',1,'HX711::HX711()']]],
-  ['hx711_20arduino_20library_8',['HX711 Arduino library',['../index.html',1,'']]],
-  ['hx711_2dsoldered_2ecpp_9',['HX711-SOLDERED.cpp',['../_h_x711-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['hx711_2dsoldered_2eh_10',['HX711-SOLDERED.h',['../_h_x711-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['begin_6',['begin',['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a792056f2db31b338c50d0d9f783fdfd4',1,'HX711_SOLDERED_LIBS::EasyC::begin()'],['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#af6754d42be15e6b670b9d3685c009f68',1,'HX711_SOLDERED_LIBS::EasyC::begin(uint8_t _address)']]],
+  ['begindone_7',['beginDone',['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a3bb263b6233a518c8cfc1a7798ed3dd3',1,'HX711_SOLDERED_LIBS::EasyC']]]
 ];

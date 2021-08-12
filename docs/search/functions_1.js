@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hx711_23',['HX711',['../class_h_x711.html#ab5696b03a20502300ddff2365814b8e5',1,'HX711::HX711(int dout, int pd_sck)'],['../class_h_x711.html#a3021b412fd3584f9dabdb2d3db6e4dad',1,'HX711::HX711()']]]
+  ['easyc_40',['EasyC',['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a10ae892bd7a985deaea4372f0cd210fe',1,'HX711_SOLDERED_LIBS::EasyC']]]
 ];
