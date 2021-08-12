@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_38',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['hx711_23',['HX711',['../class_h_x711.html#ab5696b03a20502300ddff2365814b8e5',1,'HX711::HX711(int dout, int pd_sck)'],['../class_h_x711.html#a3021b412fd3584f9dabdb2d3db6e4dad',1,'HX711::HX711()']]]
 ];

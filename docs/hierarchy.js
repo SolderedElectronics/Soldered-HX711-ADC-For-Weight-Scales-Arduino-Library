@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "EasyC", "class_easy_c.html", [
+    [ "EasyC", null, [
       [ "HX711", "class_h_x711.html", null ]
     ] ]
 ];

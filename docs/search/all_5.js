@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['getdata_13',['getData',['../class_h_x711.html#a1fbc0be179d3732e8968b8a5152cf41d',1,'HX711']]],
-  ['getweight_14',['getWeight',['../class_h_x711.html#adc4f725198b383eec905b4b7aa21bf8c',1,'HX711']]]
+  ['setgain_14',['setGain',['../class_h_x711.html#afebc127e71116b551aecb05dcea02798',1,'HX711']]],
+  ['setscale_15',['setScale',['../class_h_x711.html#a8ce1fdccb8824c504f8c720a4bf522bc',1,'HX711']]],
+  ['settozerro_16',['setToZerro',['../class_h_x711.html#a26d162f4692619e70b3e51e51cb7f2b4',1,'HX711']]]
 ];
