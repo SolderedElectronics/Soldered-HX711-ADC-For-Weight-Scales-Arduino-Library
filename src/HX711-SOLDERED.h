@@ -19,7 +19,7 @@
 #define GAIN_64  27
 #define GAIN_32  26
 
-class HX711 : public EasyC
+class HX711 : public HX711_SOLDERED_LIBS::EasyC
 {
   public:
     HX711(int dout, int pd_sck);
