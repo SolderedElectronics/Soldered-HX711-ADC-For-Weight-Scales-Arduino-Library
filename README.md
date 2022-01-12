@@ -34,12 +34,6 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Community & technical support](https://community.soldered.com)
 - [Custom PCBs](https://pcb.soldered.com)
 
-
-### Original source
-​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
-
-
 ### Open-source license
 Soldered invests vast amounts of time into hardware & software for these products, which are all open-source. Please support future development by buying one of our products. 
 
