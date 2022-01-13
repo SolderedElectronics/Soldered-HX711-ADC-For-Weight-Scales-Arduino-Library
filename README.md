@@ -19,7 +19,7 @@ You can find hardware design for this board in HX711 hardware repository
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-HX711-Arduino-Library/).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/).
 
 - Tutorial for using the HX711 board
 - Installing an Arduino library
