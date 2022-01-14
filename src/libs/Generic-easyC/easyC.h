@@ -6,7 +6,7 @@
  *
  *
  * @copyright GNU General Public License v3.0
- * @authors     @ soldered.com
+ * @authors     @ soldered.com  Robert Peric
  ***************************************************/
 
 #ifndef __EASYC_LIBRARY__
