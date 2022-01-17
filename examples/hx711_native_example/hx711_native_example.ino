@@ -6,7 +6,7 @@
  *
  *
  *
- * @authors     @ soldered.com
+ * @authors     @ soldered.com Robert Peric
  *              www.solde.red/333005
  ***************************************************/
 
