@@ -5,9 +5,10 @@
 
 | ![HX711](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [HX711](https://www.solde.red/SKU)                                                            |
+| [HX711 breakout board](https://www.solde.red/333005)                                                            |
+| [HX711 breakout board with easyC](https://www.solde.red/333006)                                                            |
 
-HX711 sensor [easyC ecosystem](https://www.soldered.com/easyC). 
+HX711 breakout board compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
