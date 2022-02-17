@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a792056f2db31b338c50d0d9f783fdfd4',1,'HX711_SOLDERED_LIBS::EasyC::begin()'],['../class_h_x711___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#af6754d42be15e6b670b9d3685c009f68',1,'HX711_SOLDERED_LIBS::EasyC::begin(uint8_t _address)']]]
+  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]]
 ];
