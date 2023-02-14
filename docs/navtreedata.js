@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "HX711 Library", "index.html", [
-    [ "HX711 ADC Arduino library", "index.html", [
-      [ "Have fun!", "index.html#autotoc_md8", null ]
-    ] ],
+    [ "HX711 ADC Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
