@@ -1,11 +1,12 @@
 # HX711 ADC Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/actions/workflows/arduino_lint.yml)
+
 
 | ![Load-cell ampfilier HX711 board](https://github.com/SolderedElectronics/Load-cell-ampfilier-HX711-board-hardware-design/blob/main/OUTPUTS/V1.1.1/333005.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-| [Load-cell ampfilier HX711 board](https://www.solde.red/333005)
+|                                            [Load-cell ampfilier HX711 board](https://www.solde.red/333005)                                                     |
 
 | ![Load-cell ampfilier HX711 board with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------------------------: |
@@ -38,7 +39,7 @@ You can find hardware design for this board in [_Load-cell ampfilier HX711 board
 
 Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the HX711 board
 - Installing an Arduino library
 
 ### Board compatibility
@@ -49,18 +50,13 @@ The library is compatible with board & microcontroller families shown in green b
 
 ### About Soldered
 
-<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
+<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-Generic-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
 - [Web Store](https://www.soldered.com/shop)
 - [Tutorials & Projects](https://soldered.com/learn)
 - [Community & Technical support](https://soldered.com/community)
-
-### Original source
-
-​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
 
 ### Open-source license
 
