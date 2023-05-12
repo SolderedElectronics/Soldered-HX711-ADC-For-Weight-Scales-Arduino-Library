@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('class_h_x711.html',''); initResizable(
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_h_x711-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">HX711 Class Reference</div></div>
@@ -108,30 +109,54 @@ $(document).ready(function(){initNavTree('class_h_x711.html',''); initResizable(
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab5696b03a20502300ddff2365814b8e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#ab5696b03a20502300ddff2365814b8e5">HX711</a> (int dout, int pd_sck)</td></tr>
-<tr class="memdesc:ab5696b03a20502300ddff2365814b8e5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_h_x711.html">HX711</a> native constructor.  <br /></td></tr>
-<tr class="separator:ab5696b03a20502300ddff2365814b8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3021b412fd3584f9dabdb2d3db6e4dad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a3021b412fd3584f9dabdb2d3db6e4dad">HX711</a> ()</td></tr>
-<tr class="memdesc:a3021b412fd3584f9dabdb2d3db6e4dad"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_h_x711.html">HX711</a> default constructor used with easyC.  <br /></td></tr>
+<tr class="memdesc:a3021b412fd3584f9dabdb2d3db6e4dad"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_h_x711.html">HX711</a> easyC constructor.  <br /></td></tr>
 <tr class="separator:a3021b412fd3584f9dabdb2d3db6e4dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26d162f4692619e70b3e51e51cb7f2b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a26d162f4692619e70b3e51e51cb7f2b4">setToZerro</a> ()</td></tr>
-<tr class="memdesc:a26d162f4692619e70b3e51e51cb7f2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">setToZerro sets _zerroConstant to some value that will be used to get 0 when nothing is on scale  <br /></td></tr>
-<tr class="separator:a26d162f4692619e70b3e51e51cb7f2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ce1fdccb8824c504f8c720a4bf522bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a8ce1fdccb8824c504f8c720a4bf522bc">setScale</a> (float scale)</td></tr>
-<tr class="memdesc:a8ce1fdccb8824c504f8c720a4bf522bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">setScale sets scale constant that will be multiplied with data we get from sensor to get value in grams  <br /></td></tr>
-<tr class="separator:a8ce1fdccb8824c504f8c720a4bf522bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bac7bc5fbbc4f119de91953e6b88690"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a6bac7bc5fbbc4f119de91953e6b88690">~HX711</a> ()</td></tr>
+<tr class="memdesc:a6bac7bc5fbbc4f119de91953e6b88690"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_h_x711.html">HX711</a> default destructor.  <br /></td></tr>
+<tr class="separator:a6bac7bc5fbbc4f119de91953e6b88690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a89a1d7c3815630731b3728c35ac85c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a5a89a1d7c3815630731b3728c35ac85c">HX711</a> (uint8_t pin_dout, uint8_t pin_sck)</td></tr>
+<tr class="memdesc:a5a89a1d7c3815630731b3728c35ac85c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_h_x711.html">HX711</a> native constructor.  <br /></td></tr>
+<tr class="separator:a5a89a1d7c3815630731b3728c35ac85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d04f042c5b51edd5b4c14e4cc71024"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a69d04f042c5b51edd5b4c14e4cc71024">waitUntilReady</a> ()</td></tr>
+<tr class="memdesc:a69d04f042c5b51edd5b4c14e4cc71024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until the sensor is ready, this is a blocking function.  <br /></td></tr>
+<tr class="separator:a69d04f042c5b51edd5b4c14e4cc71024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af89a7183dd06372cf053aca140c87adf"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#af89a7183dd06372cf053aca140c87adf">getRawReading</a> ()</td></tr>
+<tr class="memdesc:af89a7183dd06372cf053aca140c87adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get raw reading from the <a class="el" href="class_h_x711.html">HX711</a>. Works for both native and easyC.  <br /></td></tr>
+<tr class="separator:af89a7183dd06372cf053aca140c87adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb439c93cb294c50700b8f0616af8ed"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a2fb439c93cb294c50700b8f0616af8ed">getAveragedReading</a> (uint8_t numReadings=1)</td></tr>
+<tr class="memdesc:a2fb439c93cb294c50700b8f0616af8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a number of readings and get the average of them.  <br /></td></tr>
+<tr class="separator:a2fb439c93cb294c50700b8f0616af8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c2c5c2bccdf25d7c1c259d88a456776"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a0c2c5c2bccdf25d7c1c259d88a456776">getOffsettedReading</a> (uint8_t numReadings=1)</td></tr>
+<tr class="memdesc:a0c2c5c2bccdf25d7c1c259d88a456776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an averaged reading minus the offset (set by setOffset)  <br /></td></tr>
+<tr class="separator:a0c2c5c2bccdf25d7c1c259d88a456776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf3e9a2b66ea0d0eb71591ca4a68d2c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#accf3e9a2b66ea0d0eb71591ca4a68d2c">getReadingInUnits</a> (uint8_t numReadings=1)</td></tr>
+<tr class="memdesc:accf3e9a2b66ea0d0eb71591ca4a68d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reading in set units. See readInUnits.ino example for more info.  <br /></td></tr>
+<tr class="separator:accf3e9a2b66ea0d0eb71591ca4a68d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c169803f36a31cf64cbd27a89176b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a77c169803f36a31cf64cbd27a89176b6">setZero</a> ()</td></tr>
+<tr class="memdesc:a77c169803f36a31cf64cbd27a89176b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the 'Zero' value (offset) of the load cell, used for calibration. While calling this function, don't put any weight on the load cell!  <br /></td></tr>
+<tr class="separator:a77c169803f36a31cf64cbd27a89176b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afebc127e71116b551aecb05dcea02798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#afebc127e71116b551aecb05dcea02798">setGain</a> (uint8_t gain)</td></tr>
-<tr class="memdesc:afebc127e71116b551aecb05dcea02798"><td class="mdescLeft">&#160;</td><td class="mdescRight">setGain sets _gain variable thats used for controling sensor  <br /></td></tr>
+<tr class="memdesc:afebc127e71116b551aecb05dcea02798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the gain of the sensor. For both native and easyC.  <br /></td></tr>
 <tr class="separator:afebc127e71116b551aecb05dcea02798"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fbc0be179d3732e8968b8a5152cf41d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a1fbc0be179d3732e8968b8a5152cf41d">getData</a> ()</td></tr>
-<tr class="memdesc:a1fbc0be179d3732e8968b8a5152cf41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getData communicates with hx controller and collects data from device  <br /></td></tr>
-<tr class="separator:a1fbc0be179d3732e8968b8a5152cf41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e6f4986954fe5911f27260087c6cc0f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a8e6f4986954fe5911f27260087c6cc0f">readDataNative</a> ()</td></tr>
-<tr class="memdesc:a8e6f4986954fe5911f27260087c6cc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">readDataNative reads data from sensor using pins  <br /></td></tr>
-<tr class="separator:a8e6f4986954fe5911f27260087c6cc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc4f725198b383eec905b4b7aa21bf8c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#adc4f725198b383eec905b4b7aa21bf8c">getWeight</a> ()</td></tr>
-<tr class="memdesc:adc4f725198b383eec905b4b7aa21bf8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">getWeight calculates weight in grams  <br /></td></tr>
-<tr class="separator:adc4f725198b383eec905b4b7aa21bf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d27fba4f933183ff06e3544c80ef4da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a3d27fba4f933183ff06e3544c80ef4da">getGain</a> ()</td></tr>
+<tr class="memdesc:a3d27fba4f933183ff06e3544c80ef4da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set gain value, in case you need it.  <br /></td></tr>
+<tr class="separator:a3d27fba4f933183ff06e3544c80ef4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce1fdccb8824c504f8c720a4bf522bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a8ce1fdccb8824c504f8c720a4bf522bc">setScale</a> (float scale)</td></tr>
+<tr class="memdesc:a8ce1fdccb8824c504f8c720a4bf522bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the scale applied to getReadingInUnits. See readInUnits.ino for more info!  <br /></td></tr>
+<tr class="separator:a8ce1fdccb8824c504f8c720a4bf522bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d10b688cf685f51bfe8bcd2a6b2a3da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a6d10b688cf685f51bfe8bcd2a6b2a3da">getScale</a> ()</td></tr>
+<tr class="memdesc:a6d10b688cf685f51bfe8bcd2a6b2a3da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set scale value, in case you need it.  <br /></td></tr>
+<tr class="separator:a6d10b688cf685f51bfe8bcd2a6b2a3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab998906f5a2b0f1a595998874965de33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#ab998906f5a2b0f1a595998874965de33">setOffset</a> (float offset)</td></tr>
+<tr class="memdesc:ab998906f5a2b0f1a595998874965de33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the offset applied to getOffsettedReading.  <br /></td></tr>
+<tr class="separator:ab998906f5a2b0f1a595998874965de33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e1dadc536c09bccb64b976a41908328"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a2e1dadc536c09bccb64b976a41908328">getOffset</a> ()</td></tr>
+<tr class="memdesc:a2e1dadc536c09bccb64b976a41908328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set offset value, in case you need it.  <br /></td></tr>
+<tr class="separator:a2e1dadc536c09bccb64b976a41908328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a1b5644b60a21a3ce03d3e5b906e22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#ab0a1b5644b60a21a3ce03d3e5b906e22">setDeepSleep</a> (bool sleep)</td></tr>
+<tr class="memdesc:ab0a1b5644b60a21a3ce03d3e5b906e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put the <a class="el" href="class_h_x711.html">HX711</a> in deep sleep (turn it off). Works for both easyC and native.  <br /></td></tr>
+<tr class="separator:ab0a1b5644b60a21a3ce03d3e5b906e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_easy_c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_easy_c.html">EasyC</a></td></tr>
 <tr class="memitem:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">EasyC</a> ()</td></tr>
 <tr class="memdesc:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for easyC version.  <br /></td></tr>
@@ -160,21 +185,29 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aac663be6fc66653a5b75a279096b4042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#aac663be6fc66653a5b75a279096b4042">initializeNative</a> ()</td></tr>
-<tr class="memdesc:aac663be6fc66653a5b75a279096b4042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded function for virtual in base class to initialize sensor specific.  <br /></td></tr>
+<tr class="memdesc:aac663be6fc66653a5b75a279096b4042"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_h_x711.html">HX711</a> native initialization.  <br /></td></tr>
 <tr class="separator:aac663be6fc66653a5b75a279096b4042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac8092060a38890df843ab2a6982ca30c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#ac8092060a38890df843ab2a6982ca30c">readRegister</a> ()</td></tr>
+<tr class="memdesc:ac8092060a38890df843ab2a6982ca30c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a data on the <a class="el" href="class_h_x711.html">HX711</a> by pulsing the clock, used for getRawReading.  <br /></td></tr>
+<tr class="separator:ac8092060a38890df843ab2a6982ca30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aefb636db66d2af54dc073ff9c85c5bd2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#aefb636db66d2af54dc073ff9c85c5bd2">_dout</a></td></tr>
-<tr class="separator:aefb636db66d2af54dc073ff9c85c5bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a088424ddc7b5feba999ebd3208f47fb4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a088424ddc7b5feba999ebd3208f47fb4">_pd_sck</a></td></tr>
-<tr class="separator:a088424ddc7b5feba999ebd3208f47fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978944e22e4b7bf7854743fbb230c0b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a978944e22e4b7bf7854743fbb230c0b9">_pin_dout</a></td></tr>
+<tr class="separator:a978944e22e4b7bf7854743fbb230c0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1a19b2af9a5c96a3ae10abf0c6c034"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a6f1a19b2af9a5c96a3ae10abf0c6c034">_pin_sck</a></td></tr>
+<tr class="separator:a6f1a19b2af9a5c96a3ae10abf0c6c034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9434e5b5f25fd316b762a957d91730ac"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a9434e5b5f25fd316b762a957d91730ac">_gain</a> = GAIN_128</td></tr>
 <tr class="separator:a9434e5b5f25fd316b762a957d91730ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff855a06453eab5bdfcc1cac007e7489"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#aff855a06453eab5bdfcc1cac007e7489">_zerroConstant</a> = 0</td></tr>
-<tr class="separator:aff855a06453eab5bdfcc1cac007e7489"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65c366ac56f230f2418453d28a468d26"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a65c366ac56f230f2418453d28a468d26">_scaleConstant</a> = 1</td></tr>
-<tr class="separator:a65c366ac56f230f2418453d28a468d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5582594ac715930d1d7f0371b3e3bbd0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a5582594ac715930d1d7f0371b3e3bbd0">_scale</a> = 1.0</td></tr>
+<tr class="separator:a5582594ac715930d1d7f0371b3e3bbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a215da8f71a79ae70694fc0b8ccecd1fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#a215da8f71a79ae70694fc0b8ccecd1fd">_offset</a> = 0.0</td></tr>
+<tr class="separator:a215da8f71a79ae70694fc0b8ccecd1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07f8dc9c5999800463886d85035ec29"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_x711.html#ac07f8dc9c5999800463886d85035ec29">_zeroConstant</a> = 0</td></tr>
+<tr class="separator:ac07f8dc9c5999800463886d85035ec29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -191,8 +224,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a9052ae674b3553bbb19283278299f395 inherit pub_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab5696b03a20502300ddff2365814b8e5" name="ab5696b03a20502300ddff2365814b8e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5696b03a20502300ddff2365814b8e5">&#9670;&#160;</a></span>HX711() <span class="overload">[1/2]</span></h2>
+<a id="a3021b412fd3584f9dabdb2d3db6e4dad" name="a3021b412fd3584f9dabdb2d3db6e4dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3021b412fd3584f9dabdb2d3db6e4dad">&#9670;&#160;</a></span>HX711() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,14 +233,60 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">HX711::HX711 </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dout</em>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_h_x711.html">HX711</a> easyC constructor. </p>
+
+</div>
+</div>
+<a id="a6bac7bc5fbbc4f119de91953e6b88690" name="a6bac7bc5fbbc4f119de91953e6b88690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bac7bc5fbbc4f119de91953e6b88690">&#9670;&#160;</a></span>~HX711()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HX711::~HX711 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_h_x711.html">HX711</a> default destructor. </p>
+
+</div>
+</div>
+<a id="a5a89a1d7c3815630731b3728c35ac85c" name="a5a89a1d7c3815630731b3728c35ac85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a89a1d7c3815630731b3728c35ac85c">&#9670;&#160;</a></span>HX711() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HX711::HX711 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pin_dout</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>pd_sck</em>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pin_sck</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -228,34 +307,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3021b412fd3584f9dabdb2d3db6e4dad" name="a3021b412fd3584f9dabdb2d3db6e4dad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3021b412fd3584f9dabdb2d3db6e4dad">&#9670;&#160;</a></span>HX711() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">HX711::HX711 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="class_h_x711.html">HX711</a> default constructor used with easyC. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1fbc0be179d3732e8968b8a5152cf41d" name="a1fbc0be179d3732e8968b8a5152cf41d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fbc0be179d3732e8968b8a5152cf41d">&#9670;&#160;</a></span>getData()</h2>
+<a id="a2fb439c93cb294c50700b8f0616af8ed" name="a2fb439c93cb294c50700b8f0616af8ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb439c93cb294c50700b8f0616af8ed">&#9670;&#160;</a></span>getAveragedReading()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HX711::getData </td>
+          <td class="memname">long HX711::getAveragedReading </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>numReadings</em> = <code>1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make a number of readings and get the average of them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uint8_t</td><td>numReadings The number of readings to be done to average from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>long of the averaged raw reading </dd></dl>
+
+</div>
+</div>
+<a id="a3d27fba4f933183ff06e3544c80ef4da" name="a3d27fba4f933183ff06e3544c80ef4da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d27fba4f933183ff06e3544c80ef4da">&#9670;&#160;</a></span>getGain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HX711::getGain </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -263,19 +350,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>getData communicates with hx controller and collects data from device </p>
-<dl class="section return"><dt>Returns</dt><dd>data from device data register </dd></dl>
+<p>Get the set gain value, in case you need it. </p>
+<dl class="section return"><dt>Returns</dt><dd>float of the set gain </dd></dl>
 
 </div>
 </div>
-<a id="adc4f725198b383eec905b4b7aa21bf8c" name="adc4f725198b383eec905b4b7aa21bf8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc4f725198b383eec905b4b7aa21bf8c">&#9670;&#160;</a></span>getWeight()</h2>
+<a id="a2e1dadc536c09bccb64b976a41908328" name="a2e1dadc536c09bccb64b976a41908328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e1dadc536c09bccb64b976a41908328">&#9670;&#160;</a></span>getOffset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float HX711::getWeight </td>
+          <td class="memname">float HX711::getOffset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -283,8 +370,103 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>getWeight calculates weight in grams </p>
-<dl class="section return"><dt>Returns</dt><dd>float weight in grams </dd></dl>
+<p>Get the set offset value, in case you need it. </p>
+<dl class="section return"><dt>Returns</dt><dd>float of the set offset </dd></dl>
+
+</div>
+</div>
+<a id="a0c2c5c2bccdf25d7c1c259d88a456776" name="a0c2c5c2bccdf25d7c1c259d88a456776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2c5c2bccdf25d7c1c259d88a456776">&#9670;&#160;</a></span>getOffsettedReading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double HX711::getOffsettedReading </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>numReadings</em> = <code>1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an averaged reading minus the offset (set by setOffset) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uint8_t</td><td>numReadings The number of readings to be done to average from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>double of the averaged and offsetted raw reading </dd></dl>
+
+</div>
+</div>
+<a id="af89a7183dd06372cf053aca140c87adf" name="af89a7183dd06372cf053aca140c87adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af89a7183dd06372cf053aca140c87adf">&#9670;&#160;</a></span>getRawReading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long HX711::getRawReading </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get raw reading from the <a class="el" href="class_h_x711.html">HX711</a>. Works for both native and easyC. </p>
+<dl class="section note"><dt>Note</dt><dd>Disables interrupts for a very short period of time</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>long of the raw reading </dd></dl>
+
+</div>
+</div>
+<a id="accf3e9a2b66ea0d0eb71591ca4a68d2c" name="accf3e9a2b66ea0d0eb71591ca4a68d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf3e9a2b66ea0d0eb71591ca4a68d2c">&#9670;&#160;</a></span>getReadingInUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double HX711::getReadingInUnits </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>numReadings</em> = <code>1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the reading in set units. See readInUnits.ino example for more info. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uint8_t</td><td>numReadings The number of readings to be done to average from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>double of the reading in set units </dd></dl>
+
+</div>
+</div>
+<a id="a6d10b688cf685f51bfe8bcd2a6b2a3da" name="a6d10b688cf685f51bfe8bcd2a6b2a3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d10b688cf685f51bfe8bcd2a6b2a3da">&#9670;&#160;</a></span>getScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HX711::getScale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the set scale value, in case you need it. </p>
+<dl class="section return"><dt>Returns</dt><dd>float of the set scale </dd></dl>
 
 </div>
 </div>
@@ -311,29 +493,64 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Overloaded function for virtual in base class to initialize sensor specific. </p>
+<p><a class="el" href="class_h_x711.html">HX711</a> native initialization. </p>
 
 <p>Implements <a class="el" href="class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998">EasyC</a>.</p>
 
 </div>
 </div>
-<a id="a8e6f4986954fe5911f27260087c6cc0f" name="a8e6f4986954fe5911f27260087c6cc0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e6f4986954fe5911f27260087c6cc0f">&#9670;&#160;</a></span>readDataNative()</h2>
+<a id="ac8092060a38890df843ab2a6982ca30c" name="ac8092060a38890df843ab2a6982ca30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8092060a38890df843ab2a6982ca30c">&#9670;&#160;</a></span>readRegister()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HX711::readDataNative </td>
+          <td class="memname">uint8_t HX711::readRegister </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>readDataNative reads data from sensor using pins </p>
-<dl class="section return"><dt>Returns</dt><dd>data from device data register </dd></dl>
+<p>Read a data on the <a class="el" href="class_h_x711.html">HX711</a> by pulsing the clock, used for getRawReading. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t of the value read from <a class="el" href="class_h_x711.html">HX711</a> </dd></dl>
+
+</div>
+</div>
+<a id="ab0a1b5644b60a21a3ce03d3e5b906e22" name="ab0a1b5644b60a21a3ce03d3e5b906e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a1b5644b60a21a3ce03d3e5b906e22">&#9670;&#160;</a></span>setDeepSleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HX711::setDeepSleep </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sleep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Put the <a class="el" href="class_h_x711.html">HX711</a> in deep sleep (turn it off). Works for both easyC and native. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bool</td><td>sleep 'True' puts the device to sleep, 'False' turns it off.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
 </div>
@@ -353,13 +570,41 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setGain sets _gain variable thats used for controling sensor </p>
+<p>Set the gain of the sensor. For both native and easyC. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">uint8_t</td><td>gain posible values are GAIN_128, GAIN_64, GAIN_32 </td></tr>
+    <tr><td class="paramname">uint8_t</td><td>gain Can either be GAIN_128, GAIN_64, GAIN_32</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
+<a id="ab998906f5a2b0f1a595998874965de33" name="ab998906f5a2b0f1a595998874965de33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab998906f5a2b0f1a595998874965de33">&#9670;&#160;</a></span>setOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HX711::setOffset </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the offset applied to getOffsettedReading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">float</td><td>offset The offset to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
 </div>
@@ -379,24 +624,25 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setScale sets scale constant that will be multiplied with data we get from sensor to get value in grams </p>
+<p>Set the scale applied to getReadingInUnits. See readInUnits.ino for more info! </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">float</td><td>scale sets _scaleConstant that is used when returning weights in grams </td></tr>
+    <tr><td class="paramname">float</td><td>scale The scale to set</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
 </div>
-<a id="a26d162f4692619e70b3e51e51cb7f2b4" name="a26d162f4692619e70b3e51e51cb7f2b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26d162f4692619e70b3e51e51cb7f2b4">&#9670;&#160;</a></span>setToZerro()</h2>
+<a id="a77c169803f36a31cf64cbd27a89176b6" name="a77c169803f36a31cf64cbd27a89176b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c169803f36a31cf64cbd27a89176b6">&#9670;&#160;</a></span>setZero()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void HX711::setToZerro </td>
+          <td class="memname">void HX711::setZero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -404,33 +650,32 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setToZerro sets _zerroConstant to some value that will be used to get 0 when nothing is on scale </p>
+<p>Set the 'Zero' value (offset) of the load cell, used for calibration. While calling this function, don't put any weight on the load cell! </p>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
+<a id="a69d04f042c5b51edd5b4c14e4cc71024" name="a69d04f042c5b51edd5b4c14e4cc71024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d04f042c5b51edd5b4c14e4cc71024">&#9670;&#160;</a></span>waitUntilReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HX711::waitUntilReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait until the sensor is ready, this is a blocking function. </p>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aefb636db66d2af54dc073ff9c85c5bd2" name="aefb636db66d2af54dc073ff9c85c5bd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefb636db66d2af54dc073ff9c85c5bd2">&#9670;&#160;</a></span>_dout</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int HX711::_dout</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9434e5b5f25fd316b762a957d91730ac" name="a9434e5b5f25fd316b762a957d91730ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9434e5b5f25fd316b762a957d91730ac">&#9670;&#160;</a></span>_gain</h2>
 
@@ -453,8 +698,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a088424ddc7b5feba999ebd3208f47fb4" name="a088424ddc7b5feba999ebd3208f47fb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a088424ddc7b5feba999ebd3208f47fb4">&#9670;&#160;</a></span>_pd_sck</h2>
+<a id="a215da8f71a79ae70694fc0b8ccecd1fd" name="a215da8f71a79ae70694fc0b8ccecd1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a215da8f71a79ae70694fc0b8ccecd1fd">&#9670;&#160;</a></span>_offset</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -463,7 +708,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int HX711::_pd_sck</td>
+          <td class="memname">float HX711::_offset = 0.0</td>
         </tr>
       </table>
   </td>
@@ -475,8 +720,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a65c366ac56f230f2418453d28a468d26" name="a65c366ac56f230f2418453d28a468d26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65c366ac56f230f2418453d28a468d26">&#9670;&#160;</a></span>_scaleConstant</h2>
+<a id="a978944e22e4b7bf7854743fbb230c0b9" name="a978944e22e4b7bf7854743fbb230c0b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978944e22e4b7bf7854743fbb230c0b9">&#9670;&#160;</a></span>_pin_dout</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float HX711::_scaleConstant = 1</td>
+          <td class="memname">int HX711::_pin_dout</td>
         </tr>
       </table>
   </td>
@@ -497,8 +742,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aff855a06453eab5bdfcc1cac007e7489" name="aff855a06453eab5bdfcc1cac007e7489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff855a06453eab5bdfcc1cac007e7489">&#9670;&#160;</a></span>_zerroConstant</h2>
+<a id="a6f1a19b2af9a5c96a3ae10abf0c6c034" name="a6f1a19b2af9a5c96a3ae10abf0c6c034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1a19b2af9a5c96a3ae10abf0c6c034">&#9670;&#160;</a></span>_pin_sck</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,7 +752,51 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t HX711::_zerroConstant = 0</td>
+          <td class="memname">int HX711::_pin_sck</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5582594ac715930d1d7f0371b3e3bbd0" name="a5582594ac715930d1d7f0371b3e3bbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5582594ac715930d1d7f0371b3e3bbd0">&#9670;&#160;</a></span>_scale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HX711::_scale = 1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac07f8dc9c5999800463886d85035ec29" name="ac07f8dc9c5999800463886d85035ec29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac07f8dc9c5999800463886d85035ec29">&#9670;&#160;</a></span>_zeroConstant</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HX711::_zeroConstant = 0</td>
         </tr>
       </table>
   </td>
@@ -531,7 +820,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_h_x711.html">HX711</a></li>
         <li class="footer">
-            Generated on Thu Apr 20 2023 05:40:37 for HX711 Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Fri May 12 2023 08:58:00 for HX711 Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
