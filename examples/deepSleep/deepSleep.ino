@@ -32,13 +32,13 @@
  * GND------------------------->GND (Make sure to connect both GND's!)
  * DAT------------------------->PIN_DAT, set by user
  * SCK------------------------->PIN_SCK, set by user
- * 
+ *
  * HX711 load-cell amplifier    Load-cell
  * (E+)------------------------>RED
  * (E-)------------------------>BLACK
  * (A-)------------------------>GREEN
  * (A+)------------------------>WHITE
- * 
+ *
  */
 
 // Create the HX711 object on the right pins
@@ -53,13 +53,11 @@ void setup()
 
     // Wait a bit until it initializes fully
     delay(200);
-
-    
 }
 
 void loop()
 {
-    // Wake up the HX711 in deep sleep
+    // Wake up the HX711 from deep sleep
     hx711.setDeepSleep(false);
 
     // Wait a bit until it initializes fully
@@ -67,14 +65,14 @@ void loop()
 
     // Make raw reading and store in variable
     long reading = hx711.getRawReading();
-    
+
     // Print the reading
     Serial.print("HX711 Reading: ");
     Serial.println(reading);
 
     // Place the HX711 in deep sleep
     hx711.setDeepSleep(true);
-    
+
     // Wait a long while until the next reading
     delay(15000);
 }

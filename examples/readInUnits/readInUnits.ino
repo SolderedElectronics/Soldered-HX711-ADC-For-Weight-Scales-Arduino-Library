@@ -80,9 +80,7 @@ void setup()
 
 void loop()
 {
-    // Make raw reading of the calibrated sensor and store in variable
-    // Note that this is not the same function as getRawReading()
-    // The applied offset is the calibration
+    // Make reading in units
     double readingInUnits = hx711.getReadingInUnits();
 
     // You may also call getReadingInUnits(n) for the result to be an average of n readings

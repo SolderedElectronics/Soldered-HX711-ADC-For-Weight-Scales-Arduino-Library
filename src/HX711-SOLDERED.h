@@ -55,7 +55,7 @@ class HX711 : public EasyC
 
   protected:
     void initializeNative();
-  
+
   private:
     int _pin_dout;
     int _pin_sck;

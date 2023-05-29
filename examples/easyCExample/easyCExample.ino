@@ -23,7 +23,7 @@
 /**
  * Connecting diagram:
  *
- * HX711 load-cell amplifier   Dasduino
+ * HX711 load-cell amplifier    Dasduino
  * EasyC----------------------->EasyC
  * 
  * HX711 load-cell amplifier    Load-cell
