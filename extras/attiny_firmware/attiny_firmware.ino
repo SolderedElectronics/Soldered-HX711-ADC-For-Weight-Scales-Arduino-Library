@@ -60,6 +60,8 @@ void receiveEvent(int howMany)
 
     uint8_t c = Wire.read();
 
+    // In this function, we recieve a single byte which sets the gain of the amplifier
+
     switch(c)
     {
         case SET_GAIN_32:
@@ -84,6 +86,7 @@ void receiveEvent(int howMany)
 
 void requestEvent()
 {
+    // In this function, sensor data is sent as a deconstructed long
     byte bytes[4];
 
     bytes[0] = (sensorData >> 24) & 0xFF;
