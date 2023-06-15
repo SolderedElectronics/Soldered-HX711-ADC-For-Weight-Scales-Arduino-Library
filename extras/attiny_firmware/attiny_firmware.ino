@@ -1,12 +1,12 @@
 /**
  **************************************************
  *
- * @file        Template for attiny_firmware
- * @brief       Fill in sensor specific code.
+ * @file        Firmware for ATTINY on the HX711 easyC board
+ * @brief       Communicates with the main board to send sensor data over easyC
  *
 
  *
- * @authors     @ soldered.com
+ * @authors     Robert @ soldered.com
  ***************************************************/
 
 #include "easyC.h"
