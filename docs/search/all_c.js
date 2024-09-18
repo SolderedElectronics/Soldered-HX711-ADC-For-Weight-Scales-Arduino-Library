@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7ehx711_0',['~HX711',['../class_h_x711.html#a6bac7bc5fbbc4f119de91953e6b88690',1,'HX711']]]
+  ['open_20source_20license_0',['Open-source license',['../index.html#autotoc_md6',1,'']]]
 ];

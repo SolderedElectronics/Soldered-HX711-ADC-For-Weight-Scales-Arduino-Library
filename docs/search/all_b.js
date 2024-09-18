@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waituntilready_0',['waitUntilReady',['../class_h_x711.html#a69d04f042c5b51edd5b4c14e4cc71024',1,'HX711']]]
+  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
 ];
