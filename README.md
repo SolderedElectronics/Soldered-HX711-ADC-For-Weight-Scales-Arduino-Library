@@ -8,9 +8,9 @@
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                            [Load-cell ampfilier HX711 board](https://solde.red/333005)                                                     |
 
-| ![Load-cell ampfilier HX711 board with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Load-cell ampfilier HX711 board with Qwiic](https://soldered.com/cdn/shop/files/333006_featured-photo_e21b57_4045dbe9-6eb3-462b-b97d-8d17422685cf.jpg) |
 | :------------------------------------------------------------------------------------------------------------------: |
-|                      [Load-cell ampfilier HX711 board with easyC](https://solde.red/333006)                      |
+|                      [Load-cell ampfilier HX711 board with Qwiic](https://solde.red/333006)                      |
 
 The HX711 breakout allows you to easily read the weight value from a load-cell sensor (mass sensor). This small ADC is of great precision and is capable of measuring very small changes in the load-cell resistance, whose signals are amplified with the built-in amplifier. Subsequently, this same information is digitally transmitted to a microcontroller that simply converts the numbers obtained into the actual weight. That's why this breakout is very useful for projects with scales or presence sensors, either for individuals or industry.
 
@@ -33,7 +33,7 @@ Breakout supports the connection of load cells that are made by the Wheatstone B
 
 You can find hardware design for this board in [_Load-cell ampfilier HX711 board_](https://github.com/SolderedElectronics/Load-cell-ampfilier-HX711-board-hardware-design) hardware repository.
 
-You can find hardware design for this board in [_Load-cell ampfilier HX711 board with easyC_](https://github.com/SolderedElectronics/Load-cell-ampfilier-HX711-board-with-easy-C-hardware-design) hardware repository.
+You can find hardware design for this board in [_Load-cell ampfilier HX711 board with Qwiic_](https://github.com/SolderedElectronics/Load-cell-ampfilier-HX711-board-with-easy-C-hardware-design) hardware repository.
 
 ### Documentation
 
